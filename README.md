@@ -8,7 +8,7 @@ Creators Sampo Kuhalampi & Antte Heatta<br><br>
 Note: The website is not connected to any database and therefore no comments are saved. This project focused on the functionalities of a website.<br><br>
 
 
-# AboutOulu
+
 AboutOulu on nettisivu jossa käyttäjä pääsee tutustumaan Oulun kaupunkiin.<br>
 Sivustollamme käyttjä voi etsiä itselleen mieluisia kohteita kuten ravintoloita, nähtävyyksiä sekä hotelleja.<br>
 Sivustollamme on jokaisessa kohteessa kommentointi mahdollisuus, johon käyttäjä voi halutessaan kertoa omia kokemuksiaan kohteesta.<br>
