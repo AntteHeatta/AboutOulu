@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hotellit</title>
+    <link href="hotellit.css" rel="stylesheet">
+    <script src="hotellit.js" defer></script>
+</head>
+
+<body>
+    <div class="heading">
+        <h1 class="header1"><button onclick="returnToMain()">AboutOulu</button></h1>
+        <h3>Hotellit</h3>
+        <div class="returnToMain">
+            <button onclick="returnToMain()"
+                style="height:40px; width:100px; border-radius: 8%; background-color: rgb(190, 200, 229);">Takaisin</button>
+        </div>
+        <div class="searchBox">
+            <input type="text" id="searchBox" onkeyup="textSearch()" placeholder="Hae hotellia">
+        </div>
+    </div>
+
+
+
+    <div class="dropdown">
+        <nav></nav>
+
+        <label for="touch"><span>Lisää hakuehtoja</span></label>
+        <input type="checkbox" id="touch">
+        <div class="dropdown-content" style="list-style-type:none;">
+            <div class="container">
+                <div id="filterText">Valitse haluamasi hotelliketju</div>
+                <div class="filterBox">
+
+                    <a class="btn" id="sryhmaOpt">S-Ryhmä</a>
+                    <input type="checkbox" id="sryhmaCB" />
+
+                    <a class="btn" id="scandicOpt">Scandic</a>
+                    <input type="checkbox" id="scandicCB" />
+
+                    <a class="btn" id="radissonOpt">Radisson Blu</a>
+                    <input type="checkbox" id="radissonCB" />
+
+                    <a class="btn" id="laplandOpt">Lapland Hotels</a>
+                    <input type="checkbox" id="laplandCB" />
+
+                    <input onclick="clearCB()" type="button" value="Tyhjennä haku">
+
+                    <div class="priceSlider">
+                        <input type="range" min="1" max="3" value="2" class="slider" id="priceSlider">
+                    </div>
+                    $............$$........$$$
+                    <br>
+                    <input onclick="search()" type="button" value="Hae">
+                </div>
+
+            </div>
+        </div>
+        </nav>
+    </div>
+
+    <main>
+        <div class="mainfeed">
+            <ul id="listOfDestinations">
+                <li>
+
+                    <a href="/Kohde/Hotellit/Scandic/scandic.html" id="pr2">
+                        <img id="scandic" src="/Kuvat/HotelliKuvat/Scandic/img.main_scandic.jpeg" alt="Scandic Oulu">
+                        <div id="destinationText">
+                            scandic
+                        </div>
+                    </a>
+
+                </li>
+                <li>
+
+                    <a href="/Kohde/Hotellit/Sokoshotel/sokos.html" id="pr2">
+                        <img id="sryhma" src="/Kuvat/HotelliKuvat/SokosHotels/img.main_sokoshotel.jpeg" alt="Sokos">
+                        <div id="destinationText">
+                            sokos hotel sryhma
+                        </div>
+                    </a>
+
+                </li>
+
+                <li>
+
+                    <a href="/Kohde/Hotellit/Radisson Blu/radisson.html" id="pr3">
+                        <img id="radisson" src="/Kuvat/HotelliKuvat/Radisson/img.main_radisson.jpeg" alt="Radisson blu">
+                        <div id="destinationText">
+                            radisson blu
+                        </div>
+                    </a>
+
+
+                </li>
+
+
+            </ul>
+
+        </div>
+    </main>
+</body>
+
+</html>

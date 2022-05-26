@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nähtävyydet</title>
+    <link href="nahtavyydet.css" rel="stylesheet">
+    <script src="nahtavyydet.js" defer></script>
+</head>
+
+<body>
+    <div class="heading">
+        <h1 class="header1"><button onclick="returnToMain()">AboutOulu</button></h1>
+        <h3>Nähtävyydet</h3>
+        <div class="returnToMain">
+            <button onclick="returnToMain()"
+                style="height:40px; width:100px; border-radius: 8%; background-color: rgb(190, 200, 229);">Takaisin</button>
+        </div>
+
+        <div class="searchBox">
+            <input type="text" id="searchBox" onkeyup="textSearch()" placeholder="Hae Nähtävyyttä">
+
+        </div>
+    </div>
+
+
+
+    <div class="dropdown">
+        <nav></nav>
+
+        <label for="touch"><span>Rajaus</span></label>
+        <input type="checkbox" id="touch">
+        <div class="dropdown-content" style="list-style-type:none;">
+            <div class="container">
+                <div id="filterText">Lisää hakuehtoja</div>
+                <div class="filterBox">
+
+                    <a class="btn" id="centerOpt">Keskustassa</a>
+                    <input type="checkbox" id="centerCB" />
+
+                    <a class="btn" id="touristOpt">Turisteille</a>
+                    <input type="checkbox" id="touristCB" />
+
+                    <a class="btn" id="everyoneOpt">Kaikenikäisille</a>
+                    <input type="checkbox" id="everyoneCB" />
+
+                    <a class="btn" id="disabledOpt">Liikuntarajoitteisille</a>
+                    <input type="checkbox" id="disabledCB" />
+
+                    <input onclick="clearCB()" type="button" value="Tyhjennä haku">
+
+                    <br>
+                    <input onclick="search()" type="button" value="Hae">
+                </div>
+            </div>
+        </div>
+        </nav>
+    </div>
+
+    <main>
+
+
+
+        <div class="mainfeed"></div>
+        <ul id="listOfDestinations">
+            <li>
+
+
+                <a href="/Kohde/Nähtävyydet/Rotuaari/rotuaari.html">
+                    <img id="everyone" src="/Kuvat/NähtävyydetKuvat/Rotuaari/Rotuaari.jpeg" alt="Rotuaari">
+                    <div id="destinationText">
+                        everyone rotuaari
+                    </div>
+                </a>
+
+            </li>
+            <li>
+
+
+                <a href="/Kohde/Nähtävyydet/Toripolliisi/toripolliisi.html">
+                    <img id="tourist" src="/Kuvat/NähtävyydetKuvat/Toripoliisi/toripoliisi.jpeg" alt="Toripoliisi">
+                    <div id="destinationText">
+                        tourist toripolliisi
+                    </div>
+                </a>
+
+            </li>
+            <li>
+
+                <a href="/Kohde/Nähtävyydet/Valkeakk/valkeakk.html">
+                    <img id="center" src="/Kuvat/NähtävyydetKuvat/ValkeaKK/img.main_valkeakk.jpeg" alt="ValkeaKK">
+                    <div id="destinationText">
+                        center valkea kävelykatu
+                    </div>
+                </a>
+
+            </li>
+            <li>
+
+                <a href="/Kohde/Nähtävyydet/Kauppahalli/kauppahalli.html">
+                    <img id="disabled" src="/Kuvat/NähtävyydetKuvat/Kauppahalli/img.main_kauppahalli.jpeg"
+                        alt="Kauppahalli">
+                    <div id="destinationText">
+                        disabled kauppahalli
+                    </div>
+                </a>
+
+            </li>
+
+        </ul>
+
+        </div>
+    </main>
+</body>
+
+</html>
