@@ -3,9 +3,9 @@ This website is created as a school project, and it is meant for people that wan
 On this website, users can search for restaurants, attractions and hotels.<br>
 Users can also leave comments on destinations.<br>
 The photos are taken by the creators of this website.<br>
-Link: <br><br>
+Link: https://aboutoulu.netlify.app/ <br><br>
 Creators Sampo Kuhalampi & Antte Heatta<br><br>
-Note: The website
+Note: The website is not connected to any database and therefore no comments are saved. This project focused on the functionalities of a website.<br><br>
 
 
 # AboutOulu
