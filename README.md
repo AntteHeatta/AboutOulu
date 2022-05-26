@@ -1,9 +1,11 @@
-#AboutOulu
+# AboutOulu
 This website is created as a school project, and it is meant for people that want to get to know the city of Oulu.<br>
 On this website, users can search for restaurants, attractions and hotels.<br>
 Users can also leave comments on destinations.<br>
-The photos are taken by the creators of this website.<br><br>
-Creators Sampo Kuhalampi & Antte Heatta
+The photos are taken by the creators of this website.<br>
+Link: <br><br>
+Creators Sampo Kuhalampi & Antte Heatta<br><br>
+Note: The website
 
 
 # AboutOulu
